@@ -1,0 +1,207 @@
+body {
+    background-color: #9c9f84;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  }
+
+  .container {
+    background-color: #9c9f84;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+  }
+
+  /* Syntax rules for the webpage layout sections*/
+  #header {
+    background-color: #5c755e;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+    text-align: center;
+  }
+ 
+
+  
+  .main {
+    background-color: #e5e4d8;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 110%;
+  }
+  
+  
+  #footer {
+    background-color: #5c755e;
+    margin: 10px;
+    height: 60px;
+    clear: both;
+    border-radius: 5px;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    font-size: 90%;
+  }
+  #footer ul {
+    padding: 5px;
+    list-style-type: none;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  #footer li {
+    display: inline;
+  }
+  #footer a {
+    text-decoration: none;
+    font-family: arial;
+    padding: 0.2em 1em;
+    color: #efe5d0;
+    background-color: #5c755e;
+  }
+  
+  /* Syntax rules for the heading*/
+  h1 {
+    font-size: 50px;
+    color: black;
+  }
+  
+  h2 {
+    font-size: 120%;
+    color: darkblue;
+  }
+  
+ 
+  
+  .styled:hover {
+    background-color: rgb(255, 0, 0);
+  }
+  
+  .styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, 0.6), inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  /* Syntax rules for the radio button form section*/
+  input[type=radio] {
+    display: none;
+  }
+  
+  label {
+    display: inline-block;
+    margin-right: 10px;
+    padding-left: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  label::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 1px;
+  }
+  
+  input[type=radio]:checked + label::before {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  input[type=radio]:checked + label::before::after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+  }/*# sourceMappingURL=main.css.map */
+
+
+  #education {
+    margin: 20px;
+}
+
+#education h2 {
+    font-size: 24px;
+}
+
+#education ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#education li {
+    margin-bottom: 20px;
+    border-left: 2px solid #007BFF;
+    padding-left: 15px;
+}
+
+#education h3 {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+#skills li {
+  margin-bottom: 20px;
+  border-left: 2px solid #007BFF;
+  padding-left: 15px;
+}
+
+
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style each work experience item */
+li {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+/* Style job titles */
+h2 {
+  font-size: 24px;
+  margin: 0;
+}
+
+/* Style company names */
+p:nth-child(2) {
+  font-style: italic;
+}
+
+/* Style dates */
+p:nth-child(4) {
+  font-weight: bold;
+}
+
+/* Style job descriptions */
+p:last-child {
+  margin-top: 10px;
+}
+
+.mypicture{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    float: center;
+    width: 300px;
+  
+    opacity: 1;
+}
